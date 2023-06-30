@@ -1,0 +1,33 @@
+.nav {
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    background-color: var(--color-primary);
+    color: var(--color-quinary);
+    font-size: 1.25rem;
+}
+
+.nav-el {
+    font: inherit;
+    color: inherit;
+    font-size: 1rem;
+}
+
+.nav > div{
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    max-width: 100rem;
+}
+.nav-el{
+    font-weight: bold;
+    margin: 0.75rem;
+    padding: 1.25rem;
+    margin-right: 3rem;
+}
+.nav-el:hover, .nav-el:active  {
+    background-color: var(--color-secondary) !important;;
+    color: var(--color-tertiary) !important;
+    border-radius: 0.5rem;
+}

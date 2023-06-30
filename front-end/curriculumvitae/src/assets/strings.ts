@@ -1,0 +1,9 @@
+export const home: string = "Home";
+export const work_experience: string = "Work Experience";
+export const education: string = "Education";
+export const projects: string = "Projects";
+export const contact_me: string = "Contact Me";
+export const full_name: string = "Darko Segvic";
+export const summary: string = "Full Stack Developer, Machine Learning Engineer, Data Scientist";
+export const welcome: string = "Hi guys \u{1F601}, welcome to my page, my name is";
+export const description: string = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";

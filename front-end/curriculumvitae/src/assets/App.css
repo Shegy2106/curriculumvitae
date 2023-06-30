@@ -1,0 +1,75 @@
+body {
+  display: block !important;
+  background-color: var(--color-secondary);
+  font-family: "OpenSans", sans-serif;
+  background-attachment: fixed;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  margin-top: 88px;
+}
+
+.one-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  width: fit-content;
+  padding: 2rem;
+  margin: 2rem auto;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-tertiary) !important;
+  color: var(--color-secondary) !important;
+  flex-wrap: wrap;
+}
+
+.two-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  width: fit-content;
+  padding: 2rem;
+  margin: 2rem auto;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-tertiary) !important;
+  color: var(--color-secondary) !important;
+}
+
+.two-container > div {
+  margin-right: 2rem;
+
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
