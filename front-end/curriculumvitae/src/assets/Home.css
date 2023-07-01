@@ -5,7 +5,7 @@
 }
 
 .background-container {
-    height: 80vh;
+    height: 100%;
     padding: 2rem;
     left: 50%;
     transform: translate(-50%, 0);
@@ -16,6 +16,7 @@
     z-index: 1;
     background: inherit;
     overflow: hidden;
+    margin-bottom: 40px;
   }
   
   .background-container:before {
@@ -29,6 +30,7 @@
     bottom: 0;
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
     filter: blur(10px);
+    margin-bottom: 40px;
   }
 
 .full-name {

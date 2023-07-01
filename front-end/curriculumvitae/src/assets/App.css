@@ -1,6 +1,5 @@
 body {
   display: block !important;
-  background-color: var(--color-secondary);
   font-family: "OpenSans", sans-serif;
   background-attachment: fixed;
 }

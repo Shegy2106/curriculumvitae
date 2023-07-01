@@ -22,8 +22,8 @@
 }
 .nav-el{
     font-weight: bold;
-    margin: 0.75rem;
-    padding: 1.25rem;
+    margin: 0.5rem;
+    padding: 1rem;
     margin-right: 3rem;
 }
 .nav-el:hover, .nav-el:active  {
